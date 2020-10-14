@@ -1,0 +1,23 @@
+
+{
+  "name": "homebridge-axiostest",
+  "version": "0.0.1",
+  "description": "AXIOS",
+  "license": "MIT",
+  "keywords": [
+    "NONE",
+    "winix",
+    "winix c545"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steveb85/axiostest.git"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.4.0"
+  },
+  "dependencies": {
+    "axios": "0.20.0"
+  }
+}
