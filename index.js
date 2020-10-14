@@ -16,9 +16,9 @@ function WinixC545(log, config) {
 
     this.init();
 };
-const url = `${this.Server}`;
+const url = `{this.Server}`;
  axios.post(url)
 data: {
-    username: '${this.user}';
-    password: '${this.password}';
+    username: '{this.user}';
+    password: '{this.password}';
 }
