@@ -16,8 +16,9 @@ function WinixC545(log, config) {
 
     this.init();
 };
-const instance = axios.create({
-baseURL: 'https://smart.us.gw.winixcorp.com:9903',
-timeout: 1000
-}};
-
+const url = `${this.Server}`;
+ axios.post(url)
+data: {
+    username: '${this.user}';
+    password: '${this.password}';
+}
