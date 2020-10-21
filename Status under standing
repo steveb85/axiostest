@@ -1,0 +1,13 @@
+//the "status" returns something like this
+//YQAPAAAAeAAAqSCpIAAxODA0MjRWMDAxAQ==
+//Only the first few letters are crucual, however,
+//i haven't figured out the airqualitysensor yet.
+//the 3rd letter is the status of plasmawave A = plasmawave off, B = PLASMAWAVE on
+//the first letter gives you everything else.
+//begin with Y = unit off (but connected)
+//begin with 4 = unit on, Auto selected
+//begin with o = manual speed, low RotationSpeed
+//begin with k = manual speed, medium RotationSpeed
+//begin with i = manual speed high RotationSpeed
+//begin with h = manual speed turbo RotationSpeed
+//begin with g = manual speed, sleep setting. 
