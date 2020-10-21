@@ -13,6 +13,7 @@ var varPassword = 'xxxxxxx' // your password for winix smart america app could b
 
 function WinixAM90(log, config) {
     this.log = log;
+<<<<<<< HEAD
     this.name = 'Air Purifier';
 //these are the servers
     this.apiServer = `https://smart.us.gw.winixcorp.com:9903/homedevice/status`;
@@ -81,3 +82,23 @@ console.log(getstatusfromserver())
 
 //this will return a code to the console.log which includes everything you need for status,
 //i'll do another document that explains what i've learned there
+=======
+    this.name = config.name || 'Air Purifier';
+    this.deviceId = 'DCB50996-C9F1-4AD9-8F48-430F7048F4DA';
+    this.user = 'steve.bartlett@mac.com';
+    this.password = 'asop7890';
+
+    this.server= `https://smart.us.gw.winixcorp.com:9903/login`;
+    this.apiServer = `https://smart.us.gw.winixcorp.com/homedevice/control/${this.deviceId}`;
+    this.deviceStatusServer = `https://smart.us.gw.winixcorp.com/homedevice/polling/${this.deviceId}`;
+    this.loginServer = `https://smart.us.gw.winixcorp.com/login';
+
+    this.init();
+};
+const url = `{this.Server}`;
+ axios.post(url)
+data: {
+    username: '{this.user}';
+    password: '{this.password}';
+}
+>>>>>>> b5ef8c1f7959006a7354cecc5a390240e97c3e6a
